@@ -33,3 +33,4 @@ def test_create_engagement(session):  # pylint:disable=unused-argument
     assert fetched_engagement.get('description') == engagement_data.get('description')
     assert fetched_engagement.get('start_date')  # TODO address date format and assert
     assert fetched_engagement.get('end_date')
+    assert 1 == 1
